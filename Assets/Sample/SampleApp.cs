@@ -50,20 +50,20 @@ public class SampleApp : MonoBehaviour
         fth.onDoubleClick -= OnDoubleClick;
     }
 
-    void OnPress( bool isDown ){ AddGUILog("OnPress"); }
-    void OnBeginPress( Vector2 pressPos ){ AddGUILog("OnBeginPress"); }
-    void OnEndPress( Vector2 releasePos ){ AddGUILog("OnEndPress"); }
+    void OnPress( bool isDown ){ AddGUILog( "OnPress" ); }
+    void OnBeginPress( Vector2 pressPos ){ AddGUILog( "OnBeginPress" ); }
+    void OnEndPress( Vector2 releasePos ){ AddGUILog( "OnEndPress" ); }
 
-    void OnDrag( Vector2 delta, Vector2 dragPos ){ AddGUILog("OnDrag"); }
-    void OnBeginDrag( Vector2 dargPos ){ AddGUILog("OnBeginDrag"); }
-    void OnEndDrag( Vector2 releasePos ){ AddGUILog("OnEndDrag"); }
+    void OnDrag( Vector2 delta, Vector2 dragPos ){ AddGUILog( "OnDrag" ); }
+    void OnBeginDrag( Vector2 dargPos ){ AddGUILog( "OnBeginDrag" ); }
+    void OnEndDrag( Vector2 releasePos ){ AddGUILog( "OnEndDrag" ); }
 
-    void OnPinch( Vector2 beginPos, Vector2 endPos, float pinchRange ){ AddGUILog("OnPinch"); }
-    void OnBeginPinch( Vector2 beginPos, Vector2 endPos ){ AddGUILog("OnBeginPinch"); }
-    void OnEndPinch(){ AddGUILog("OnEndPinch"); }
+    void OnPinch( Vector2 beginPos, Vector2 endPos, float pinchRange ){ AddGUILog( "OnPinch" ); }
+    void OnBeginPinch( Vector2 beginPos, Vector2 endPos ){ AddGUILog( "OnBeginPinch" ); }
+    void OnEndPinch(){ AddGUILog( "OnEndPinch" ); }
 
-    void OnFlick( Vector2 releasePos, Vector2 delta, FlickDirType flickType ){ AddGUILog("OnFlick"); }
-    void OnDoubleClick( Vector2 releasePos ){ AddGUILog("OnDoubleClick"); }
+    void OnFlick( Vector2 releasePos, Vector2 delta, FlickDirType flickType ){ AddGUILog( "OnFlick" ); }
+    void OnDoubleClick( Vector2 releasePos ){ AddGUILog( "OnDoubleClick" ); }
 
 
 #region DEBUG_GUI_LOG
