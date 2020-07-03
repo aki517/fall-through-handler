@@ -33,6 +33,7 @@ public class FallThroughHandler :
     private float m_beforePinchRange = 0.0f;
     Vector2 m_beginDragPos = Vector2.zero;
     Vector2 m_prevDragPos = Vector2.zero;
+    public Vector2 BeginDragPos { get{ return m_beginDragPos; } }
 
     // ダブルタップ用.
     private float m_pointerUpTime = 0.0f;
